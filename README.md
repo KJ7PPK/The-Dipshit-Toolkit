@@ -1,4 +1,5 @@
 ![image](https://github.com/user-attachments/assets/8dea1e88-6212-48f2-8eb2-ffcb69335cd0)
+
 Converts all .heic files (recursively from the working directory) to .jpg using magick.exe, with optional:
 ✅ Stripping of all metadata from .jpg files
 ✅ Deletion of original .heic files
