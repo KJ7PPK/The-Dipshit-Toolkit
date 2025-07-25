@@ -1,7 +1,7 @@
 Windows Photo Viewer Restore Tool (For Win 10/11 LTSC)
 =============================================================
 
-This package restores the classic Windows Photo Viewer and enables it as a selectable app for images.
+This package restores the classic Windows Photo Viewer and enables it as a selectable app for images. Also included are the latest packages (as of date of this document) to add HEIF/HEVC support to Windows Photo Viewer with a simple command listed below. Fuck your bloatware, Microsoft!
 
 INSTRUCTIONS:
 -------------
