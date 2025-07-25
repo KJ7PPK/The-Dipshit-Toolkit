@@ -1,1 +1,28 @@
-I run Win 11 LTSC and debloat all of the included bullshit. However, the simplicity of Windows Photo Viewer was missed. This script and these appx files will restore Photo Viewer to your "Open With" dialog + add the ability to view HEIC and HEIF files without requiring the use of the shitty ass bloated bullshit Microsoft Store.
+Windows Photo Viewer Restore Tool (For Win 10/11 LTSC)
+=============================================================
+
+This package restores the classic Windows Photo Viewer and enables it as a selectable app for images.
+
+INSTRUCTIONS:
+-------------
+1. Right-click "EnablePhotoViewer.reg" and click MERGE.
+   - You might need to run it as admin.
+   - Reboot or log out/in afterward.
+
+2. Right-click an image file > Open With > Choose another app
+   - Click "More Apps"
+   - Scroll down to "Look for another app on this PC"
+   - Navigate to:
+     C:\Program Files\Windows Photo Viewer\photoviewer.dll
+   - Select it to open images with Photo Viewer.
+
+NOTES:
+------
+- This works on stripped Win10/11 LTSC installs.
+- `.HEIC` support still requires the HEIF extension (.appx).
+
+ENABLING HEIC/HEVC SUPPORT: 
+------
+- Download the two AppXBundle files, open a Powershell terminal with admin rights.
+- Run the following command to add HEIC/HEVC support (I needed both to get it working with photos):
+  -  Add-AppxPackage "C:\PathToAppxFils\Microsoft*.appxbundle
