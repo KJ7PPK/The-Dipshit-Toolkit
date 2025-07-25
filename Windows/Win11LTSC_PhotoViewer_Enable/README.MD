@@ -1,0 +1,1 @@
+I run Win 11 LTSC and debloat all of the included bullshit. However, the simplicity of Windows Photo Viewer was missed. This script and these appx files will restore Photo Viewer to your "Open With" dialog + add the ability to view HEIC and HEIF files without requiring the use of the shitty ass bloated bullshit Microsoft Store.
