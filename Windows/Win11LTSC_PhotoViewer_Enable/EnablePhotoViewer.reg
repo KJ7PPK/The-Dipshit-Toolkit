@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+; Enable Windows Photo Viewer for common image types
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations]
+".bmp"="PhotoViewer.FileAssoc.Tiff"
+".dib"="PhotoViewer.FileAssoc.Tiff"
+".gif"="PhotoViewer.FileAssoc.Tiff"
+".jfif"="PhotoViewer.FileAssoc.Tiff"
+".jpe"="PhotoViewer.FileAssoc.Tiff"
+".jpeg"="PhotoViewer.FileAssoc.Tiff"
+".jpg"="PhotoViewer.FileAssoc.Tiff"
+".png"="PhotoViewer.FileAssoc.Tiff"
+".tif"="PhotoViewer.FileAssoc.Tiff"
+".tiff"="PhotoViewer.FileAssoc.Tiff"
+".webp"="PhotoViewer.FileAssoc.Tiff"
+".heic"="PhotoViewer.FileAssoc.Tiff"
+
+; Register app under "Open With"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\photoviewer.dll]
+@="\"%ProgramFiles%\\Windows Photo Viewer\\photoviewer.dll\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileAssociation\AddRemoveApps]
+"{E6E5C6E6-150B-4FA3-AFA7-AD49D5F5DFD1}"="Windows Photo Viewer"
