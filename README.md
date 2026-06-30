@@ -7,3 +7,8 @@ Totally clanker-created, to check a specified directory's media files (covers mo
 
 ImportAlbumsToLidarr
 From a CSV (generated mine with exportify, connect to Lidarr via API and attempt to add all artists and/or albums to the database. Prompts user for URL, API, console options, log file options, etc.
+
+**Windows/PowerShell Stuff**
+
+HEIC-to-JPG.ps1
+Converts all .heic files (recursively from the working directory) to .jpg using magick.exe, with optional stripping of all metadata & deletion of original files (user prompted). Provides summary post-run of files converted and/or removed. Requires magick.exe, portable or installed, must be in the same directory as the script or available in system PATH. Download from: https://imagemagick.org/script/download.php#windows
