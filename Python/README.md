@@ -1,1 +1,0 @@
-ImportAlbumsToLidarr.py will, from a CSV (generated mine with exportify, connect to Lidarr via API and attempt to add all artists and/or albums to the database. Prompts user for URL, API, console options, log file options, etc.
